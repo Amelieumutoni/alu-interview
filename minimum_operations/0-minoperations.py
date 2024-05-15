@@ -1,4 +1,7 @@
-/usr/bin/python3
+#!/usr/bin/python3
+""" Minimum Operations"""
+
+
 def minOperations(n):
     """ Minimum Operations"""
     if n <= 1:
@@ -11,4 +14,4 @@ def minOperations(n):
             n = n / i
         else:
             i += 1
-    return resu
+    return result
